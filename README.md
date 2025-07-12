@@ -56,6 +56,7 @@ pip install -r requirements.txt
 2. Crear en el directorio `keys` un fichero `api_key.py` que contenga la variable `api_key` cuyo valor sea la API key de la AEMET (personal).
 
 3. Ejecutar el notebook para generar datos, abriendo el notebook `data_from_aemet.ipynb` para generar los CSV pertinentes. Completar con los datos "manuales" que hagan falta.
+   > IMPORTANTE: Si se ejecuta, se necesita tener un modelo de Ollama ejecutándose en local, dado que el notebook hace uso de un LLM en local.
 
 ## Contribución
 Las contribuciones son bienvenidas. Por favor, abre un issue para discutir cambios importantes antes de hacer un pull request.

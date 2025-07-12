@@ -1,0 +1,17 @@
+fecha;prec;tmin;tmax;dir;velmedia;racha;presMax;presMin;hrMedia;hrMax;hrMin;altonubes;nubosidad;lluvia;viento;SUBIR
+2025-06-22;0,0;11,9;20,4;15;1,4;7,2;884,2;881,9;99;100;61;low;abundante;posible;moderado;NO
+2025-06-23;2,0;11,7;25,0;24;2,5;16,1;884,0;882,2;64;100;40;;;;;NO
+2025-06-24;23,8;13,7;26,6;23;5,6;21,7;884,7;878,7;54;94;34;mid;escasa;chubascos;fuerte;SI
+2025-06-25;2,0;11,5;19,9;12;3,6;14,7;882,5;875,5;86;100;50;;abundante;chubascos;moderado;SI
+2025-06-26;0,0;11,4;18,2;07;1,4;6,1;886,9;882,5;95;100;80;low;escasa;no;flojo;NO
+2025-06-27;0,0;14,8;23,5;06;2,5;7,5;889,2;886,2;58;88;51;mid;escasa;no;flojo;SI
+2025-06-28;0,0;16,7;26,7;06;2,8;6,7;889,0;887,9;56;90;46;mid;media;no;flojo;SI
+2025-06-29;6,0;14,6;28,9;26;1,4;22,2;888,0;884,5;43;85;28;mid;escasa;posible;moderado;SI
+2025-07-01;0,4;14,4;29,1;10;2,2;6,9;882,9;880,4;61;100;30;low;abundante;posible;moderado;NO
+2025-07-02;5,8;11,4;16,0;08;3,3;10,0;885,9;879,9;100;100;94;low;abundante;posible;moderado;NO
+2025-07-03;30,6;11,0;17,0;10;3,6;11,7;889,3;884,9;100;100;70;low;abundante;posible;moderado;NO
+2025-07-04;0,0;11,3;22,8;08;4,7;9,4;887,3;885,4;75;100;53;low;abundante;posible;moderado;NO
+2025-07-05;0,0;12,3;19,8;09;3,3;8,6;886,4;883,7;88;100;76;low;abundante;posible;flojo;NO
+2025-07-06;1,6;10,9;18,5;35;1,4;6,7;883,7;880,5;90;100;70;low;abundante;posible;moderado;NO
+2025-07-07;0,0;7,9;15,0;29;1,9;6,7;882,9;879,7;96;100;86;low;abundante;no;moderado;NO
+2025-07-08;0,0;6,3;16,6;08;3,9;8,9;882,6;881,3;89;100;62;low;escasa;no;flojo;SI
