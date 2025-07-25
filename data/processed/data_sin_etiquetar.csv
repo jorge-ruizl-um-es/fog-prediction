@@ -1,5 +1,5 @@
-fecha;prec;tmin;tmax;dir;velmedia;racha;hrMax;hrMin;hrMedia;altonubes;nubosidad;lluvia;viento
-2025-07-25;0;14;23;;0;;90;60;77.5;low;media;no;flojo
-2025-07-26;0;11;25;N;10;;100;60;80.0;low;moderada;no;flojo
-2025-07-27;85;12;26;N;10;;100;50;0.0;alta;moderada;no;flojo
-2025-07-28;90;15;25;NE;10;;90;55;0.0;alta;moderada;no;
+fecha;prec;tmin;tmax;velmedia;hrMax;hrMin;hrMedia;altonubes;nubosidad;lluvia;viento
+2025-07-25;0.0;14.0;23.0;0.0;90.0;60.0;77.5;low;media;no;flojo
+2025-07-26;0.0;11.0;25.0;10.0;100.0;60.0;80.0;low;moderada;no;flojo
+2025-07-27;85.0;12.0;26.0;10.0;100.0;50.0;0.0;alta;moderada;no;flojo
+2025-07-28;90.0;15.0;25.0;10.0;90.0;55.0;0.0;alta;moderada;no;
