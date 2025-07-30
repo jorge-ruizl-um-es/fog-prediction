@@ -13,6 +13,23 @@ Con estos datos, se construye un modelo de Machine Learning que predice la proba
 
 🚀 **Objetivo principal**: Predecir si habrá suficiente visibilidad para visitar los lagos o si estará demasiado nublado o con niebla.
 
+## Tecnologías
+
+El proyecto está construido con un stack de **Machine Learning** y **procesamiento de datos** moderno:
+
+- 🐼 **[Pandas](https://pandas.pydata.org/)** → Manipulación y limpieza de datos
+- ➗ **[NumPy](https://numpy.org/)** → Cálculo numérico eficiente
+- 📊 **[Matplotlib](https://matplotlib.org/)** & **[Seaborn](https://seaborn.pydata.org/)** → Visualización y análisis gráfico
+- 🤖 **[Scikit-learn](https://scikit-learn.org/)** → Algoritmos de Machine Learning clásicos
+- 🧠 **[Keras](https://keras.io/)** → Redes neuronales y Deep Learning
+- 🌐 **[Requests](https://docs.python-requests.org/)** → Consumo de la **API de AEMET**
+- 📄 **[JSON](https://www.json.org/)** → Intercambio de datos estructurados
+- 💬 **[Ollama](https://ollama.com/)** → Uso de modelos LLM locales (ej. `gemma:2b`) para procesar y estructurar la información meteorológica
+
+> 🔎 Esta combinación permite desde la **extracción de datos meteorológicos** hasta la **predicción de visibilidad** con modelos de ML y Deep Learning.
+
+
+
 ## Estructura del Repositorio
 
 ```
@@ -20,7 +37,7 @@ Con estos datos, se construye un modelo de Machine Learning que predice la proba
 ├── data/                   
 │   ├── raw/                # Datos sin procesar de AEMET
 │   └── processed/          # Datos combinados y limpios
-├── models/                 # Modelos entrenados
+├── models/                 # Modelos entrenados (en notebooks)
 ├── notebooks/              # Jupyter notebooks de análisis
 ├── keys/                   # Almacenar API keys
 ├── requirements.txt        # Requisitos en Python
@@ -41,6 +58,7 @@ Con estos datos, se construye un modelo de Machine Learning que predice la proba
 3. Modelado:
    - Entrenamiento de modelo predictivo (clasificación binaria: "subible"/"no subible").
    - Evaluación del rendimiento del modelo.
+   - Prueba del modelo con datos no etiquetados reales.
    - Exportación del modelo entrenado.
 
 4. Predicción:
@@ -53,9 +71,22 @@ Con estos datos, se construye un modelo de Machine Learning que predice la proba
 pip install -r requirements.txt
 ```
 
-2. Crear en el directorio `keys` un fichero `api_key.py` que contenga la variable `api_key` cuyo valor sea la API key de la AEMET (personal).
+2. Instalar Ollama en caso de no tenerlo ya instalado, con el modelo `gemma:2b`:
+```bash
+# Instalación de Ollama
+curl -fsSL https://ollama.com/install.sh | sh
 
-3. Ejecutar el notebook para generar datos, abriendo el notebook `data_from_aemet.ipynb` para generar los CSV pertinentes. Completar con los datos "manuales" que hagan falta.
+# Iniciar servicio
+ollama serve
+
+# Descargar y ejecutar el modelo
+ollama pull gemma:2b
+ollama run gemma:2b
+```
+
+3. Crear en el directorio `keys` un fichero `api_key.py` que contenga la variable `api_key` cuyo valor sea la API key de la AEMET (personal).
+
+4. Ejecutar el notebook para generar datos, abriendo el notebook `data_from_aemet.ipynb` para generar los CSV pertinentes. Completar con los datos "manuales" que hagan falta.
    > IMPORTANTE: Si se ejecuta, se necesita tener un modelo de Ollama ejecutándose en local, dado que el notebook hace uso de un LLM en local.
 
 ## Contribución
